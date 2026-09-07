@@ -527,9 +527,11 @@ RestrictedSecurity.Test-Profile-strongAlgorithms.base.securerandom.strongAlgorit
 RestrictedSecurity.Test-Profile-strongAlgorithms-MultipleEntries.desc.name = Test-Profile-strongAlgorithms-MultipleEntries
 RestrictedSecurity.Test-Profile-strongAlgorithms-MultipleEntries.desc.default = true
 RestrictedSecurity.Test-Profile-strongAlgorithms-MultipleEntries.desc.fips = true
-RestrictedSecurity.Test-Profile-strongAlgorithms-MultipleEntries.desc.hash = SHA256:35a311a475dbed6b798965144b62d02eeec0356253d13f7a6fb58d57fc22cced
+RestrictedSecurity.Test-Profile-strongAlgorithms-MultipleEntries.desc.hash = SHA256:77eca67dce989353b0dea896f1fb2e619d15636e08ce01952fec038c09538e78
 RestrictedSecurity.Test-Profile-strongAlgorithms-MultipleEntries.fips.mode = 140-3
 RestrictedSecurity.Test-Profile-strongAlgorithms-MultipleEntries.jce.provider.1 = com.ibm.crypto.plus.provider.OpenJCEPlusFIPS
+RestrictedSecurity.Test-Profile-strongAlgorithms-MultipleEntries.jce.provider.2 = sun.security.provider.Sun
+RestrictedSecurity.Test-Profile-strongAlgorithms-MultipleEntries.jce.provider.3 = sun.security.ssl.SunJSSE
 RestrictedSecurity.Test-Profile-strongAlgorithms-MultipleEntries.securerandom.provider = OpenJCEPlusFIPS
 RestrictedSecurity.Test-Profile-strongAlgorithms-MultipleEntries.securerandom.algorithm = SHA512DRBG
 RestrictedSecurity.Test-Profile-strongAlgorithms-MultipleEntries.securerandom.strongAlgorithms = SHA512DRBG:OpenJCEPlusFIPS, SHA256DRBG:OpenJCEPlusFIPS
